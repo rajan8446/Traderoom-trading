@@ -1,0 +1,4 @@
+.hero-section-ctn::before{
+    --background-overlay: '';
+    background-color: #2fffb9;
+}
