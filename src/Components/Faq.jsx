@@ -45,8 +45,8 @@ const FAQ = () => {
   ];
 
   return (
-    <div className="w-full mx-auto p-4 flex flex-col items-center min-h-screen">
-      <div className="w-full mx-auto p-4 flex flex-col items-center min-h-screen">
+    <div className="w-full mx-auto p-4 flex flex-col items-center">
+      <div className="w-full mx-auto p-4 flex flex-col items-center">
         <div className="flex justify-center items-center bg-[#84d9ba] rounded-[8px] mb-4 mx-auto px-2">
           <h2 className="text-xs sm:text-sm md:text-base text-[#5D5D5D] text-center leading-[1.8] tracking-[2px]">
             FAQ QUESTION ❓
