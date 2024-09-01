@@ -54,14 +54,11 @@ This is a homepage template for an online trading courses website. It’s ideal 
 
 1. **Challenge**: Adding a background image to the Hero section div.
 
-   - **Solution**: Resolved with the help of ChatGPT, Google references, and YouTube tutorials.
-
 2. **Challenge**: Making the "Benefit of Joining Course" section dynamic, where numbers start from zero and progress to the final state.
 
-   - **Solution**: Addressed with guidance from ChatGPT and various online resources.
-
 3. **Challenge**: Ensuring the entire website is responsive.
-   - **Solution**: Overcame difficulties with the assistance of ChatGPT, Google references, and YouTube tutorials.
+
+**Solution**: Overcame difficulties with the assistance of ChatGPT, Google references, and YouTube tutorials.
 
 ## Live URL
 
