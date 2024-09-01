@@ -31,7 +31,7 @@ function App() {
           height: "100vh",
           color: "white",
         }}
-        className="bg-right rounded-b-[40px] bg-green-100"
+        className="nav-hero-ctn"
       >
         <Navbar />
         <HeroSection />

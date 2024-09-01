@@ -7,3 +7,21 @@
   color: antiquewhite;
   cursor: pointer;
 }
+
+
+.benefit-card-ctn {
+  background-color: transparent;
+  background-image: linear-gradient(320deg, #05180c 0%, #0e3b43 100%);
+  width: 48%;
+}
+
+.nav-hero-ctn {
+  background-color: #cdfeea;
+  background: url("https://traderoom.1onestrong.com/wp-content/uploads/2024/08/Heros-04.png")
+      bottom right no-repeat,
+    url("https://traderoom.1onestrong.com/wp-content/uploads/2024/08/Icon-001.png")
+      bottom right no-repeat,
+    linear-gradient(180deg, #0e5866 0%, #0e3b43 110%);
+  border-radius: 0px 0px 45px 45px;
+  background-size:60%;
+}

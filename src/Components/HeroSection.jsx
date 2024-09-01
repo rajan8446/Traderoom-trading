@@ -2,7 +2,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const HeroSection = () => {
   return (
-    <section className="hero-section-ctn py-20 relative overflow-hidden min-h-screen">
+    <section className="hero-section-ctn flex py-20 relative overflow-hidden min-h-screen">
       <div className="container mx-auto flex items-center justify-between max-w-7xl">
         <div className="text-white max-w-2xl ">
           <h1 className="text-5xl font-bold mb-10">

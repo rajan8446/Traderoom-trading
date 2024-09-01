@@ -2,7 +2,7 @@
 
 const ProductCard = ({ image, name, description, price }) => (
   <div className="bg-white shadow-lg rounded-lg overflow-hidden transition-transform duration-300 hover:bg-[#10505C] hover:scale-105">
-    <img src={image} alt={name} className="w-full h-40 object-cover" />
+    <img src={image} alt={name} className="object-cover" />
     
     <div className="p-4 bg-[#0E3B43] border-b border-gray-700">
       <h3 className="text-xl font-semibold text-white">{name}</h3>
@@ -17,6 +17,8 @@ const ProductCard = ({ image, name, description, price }) => (
     </div>
   </div>
 );
+
+
 
 const OurProductSection = () => {
   const products = [
@@ -51,7 +53,7 @@ const OurProductSection = () => {
   ];
 
   return (
-    <section className="py-12 bg-[#0e3b43] text-white rounded-[40px] grid place-items-center min-h-screen m-7 my-10">
+    <section className="py-12 bg-[#0e3b43] text-white rounded-[40px] min-h-screen m-7 my-10">
       <div className="w-2/3 sm:w-1/3 md:w-1/4 lg:w-1/5 flex justify-center items-center bg-[#10505c] rounded-[8px] mb-6 mx-auto p-2">
         <h2 className="text-[12px] sm:text-[14px] text-[#2FFFB9] text-center leading-[1.8] tracking-[2px]">
           OUR PRODUCTS
@@ -66,7 +68,7 @@ const OurProductSection = () => {
         Our best trading <span className="text-green-400">courses</span>
       </h2>
       <div className="p-6">
-        <div className="grid grid-cols-2 gap-6">
+        <div className="m-20 grid grid-cols-1 sm:grid-cols-2 m-10 gap-6">
           {products.map((product, index) => (
             <ProductCard
               key={index}
