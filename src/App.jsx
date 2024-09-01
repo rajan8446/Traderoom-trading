@@ -26,7 +26,7 @@ function App() {
             <img
               src="https://traderoom.1onestrong.com/wp-content/uploads/2024/08/Heros-04.png"
               alt=""
-              className="absolute w-9/12 max-md:w-10/12 bottom-0 md:right-0 hero-img"
+              className="absolute w-8/12 max-md:w-10/12 bottom-0 md:right-0 hero-img"
             />
             <img
               src="https://traderoom.1onestrong.com/wp-content/uploads/2024/08/Icon-001.png"
