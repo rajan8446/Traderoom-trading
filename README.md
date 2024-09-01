@@ -1,4 +1,4 @@
-# TradeRoom - Online Trading Platform
+# TradeRoom - Online Trading Courses
 
 ## Project Description
 
