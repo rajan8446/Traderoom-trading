@@ -44,7 +44,7 @@ const TradingLearningProviders = () => {
     <>
       <div className="container mx-auto px-4 py-16">
         <div className="mb-8 flex justify-center ">
-          <h2 className="text-4xl font-bold relative inline-block px-4 tracking-tight text-[#0E3B43]">
+          <h2 className="text-4xl font-bold text-center relative inline-block px-4 tracking-tight text-[#0E3B43]">
             Our trading learning provider
           </h2>
         </div>

@@ -1,13 +1,7 @@
-.hero-section-ctn::before {
-  --background-overlay: "";
-  background-color: #2fffb9;
-}
-
 .space-y-1 li:hover {
   color: antiquewhite;
   cursor: pointer;
 }
-
 
 .benefit-card-ctn {
   background-color: transparent;
@@ -16,12 +10,25 @@
 }
 
 .nav-hero-ctn {
+  background-color: #bcffe8;
+}
+
+.second-img {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translateX(-50%, -50%);
+  width: 60%;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.rounded-ctn {
   background-color: #cdfeea;
-  background: url("https://traderoom.1onestrong.com/wp-content/uploads/2024/08/Heros-04.png")
-      bottom right no-repeat,
-    url("https://traderoom.1onestrong.com/wp-content/uploads/2024/08/Icon-001.png")
-      bottom right no-repeat,
-    linear-gradient(180deg, #0e5866 0%, #0e3b43 110%);
+  background-image: linear-gradient(180deg, #0e5866 0%, #0e3b43 110%);
   border-radius: 0px 0px 45px 45px;
-  background-size:60%;
+}
+
+.green-bg {
+  background-color: #bcffe8;
 }

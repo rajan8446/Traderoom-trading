@@ -17,16 +17,7 @@ const Footer = () => {
             Subscribe to our newsletter and we will keep you informed about
             upcoming webinars, news, events and updates to our products.
           </p>
-          {/* <form className="flex justify-center relative">
-            <input
-              type="email"
-              placeholder="Enter Your Email"
-              className="rounded-[10px] px-6 py-3 text-gray-700 focus:outline-none"
-            />
-            <button className="bg-black hover:bg-gray-800 text-white py-3 px-6 rounded-full ml-2 absolute">
-              Subscribe
-            </button>
-          </form> */}
+
           <form className="flex flex-col sm:flex-row justify-center items-center mx-auto max-w-md sm:max-w-lg w-full relative">
             <input
               type="email"

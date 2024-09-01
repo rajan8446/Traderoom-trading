@@ -1,6 +1,7 @@
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
+import { FaArrowRight } from "react-icons/fa";
 
 const FAQ = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -44,26 +45,26 @@ const FAQ = () => {
   ];
 
   return (
-    <div className=" w-full mx-auto  p-4 flex flex-col items-center h-screen ">
-      <div className=" w-full mx-auto  p-4 flex flex-col items-center h-screen ">
-        <div className="w-2/3 sm:w-1/3 md:w-1/4 lg:w-1/5 flex justify-center items-center bg-[#84d9ba] rounded-[8px] mb-2 mx-auto p-1">
-          <h2 className="text-[12px] sm:text-[14px] text-[#5D5D5D] text-center leading-[1.8] tracking-[2px]">
+    <div className="w-full mx-auto p-4 flex flex-col items-center min-h-screen">
+      <div className="w-full mx-auto p-4 flex flex-col items-center min-h-screen">
+        <div className="flex justify-center items-center bg-[#84d9ba] rounded-[8px] mb-4 mx-auto px-2">
+          <h2 className="text-xs sm:text-sm md:text-base text-[#5D5D5D] text-center leading-[1.8] tracking-[2px]">
             FAQ QUESTION ❓
           </h2>
         </div>
-        <h2 className="text-4xl font-bold text-center mb-8 text-[#05180C] word-tight">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-6 sm:mb-8 text-[#05180C]">
           Frequently Asked Questions
         </h2>
-        <p className="mb-8 text-[#5D5D5D] text-center text-base md:text-lg max-w-prose">
+        <p className="mb-6 sm:mb-8 text-[#5D5D5D] text-center text-sm sm:text-base md:text-lg max-w-prose">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
           tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
         </p>
-        <div className="space-y-4 w-[60%] ">
+        <div className="space-y-4 w-full sm:w-[80%] md:w-[70%] lg:w-[60%]">
           {faqData.map((faq, index) => (
             <div key={index} className="border-b-2 border-gray-200 pb-4">
               <button
                 onClick={() => toggleFAQ(index)}
-                className="w-full text-left text-lg font-medium text-gray-800 flex justify-between items-center focus:outline-none"
+                className="w-full text-left text-base sm:text-lg font-medium text-gray-800 flex justify-between items-center focus:outline-none"
               >
                 {faq.question}
                 <span
@@ -79,11 +80,19 @@ const FAQ = () => {
                   activeIndex === index ? "max-h-40" : "max-h-0"
                 }`}
               >
-                <p className="mt-4 text-gray-600">{faq.answer}</p>
+                <p className="mt-4 text-gray-600 text-sm sm:text-base">
+                  {faq.answer}
+                </p>
               </div>
             </div>
           ))}
         </div>
+        <button className="w-full sm:w-[80%] md:w-[70%] lg:w-[60%] bg-[#0E3B43] mt-2 px-8 sm:px-12 md:px-16 py-2 rounded-lg text-white transition-all duration-300 transform hover:scale-90 hover:scale-90 hover:bg-[linear-gradient(247deg,#00ff80_0%,#C5FF7C_100%)] flex items-center justify-center">
+          <span className="text-white text-sm sm:text-base md:text-lg">
+            Explore All FAQ
+          </span>
+          <FaArrowRight className="text-[#0E3B43] ml-4 sm:ml-6" />
+        </button>
       </div>
     </div>
   );

@@ -1,3 +1,4 @@
+
 import { BrowserRouter } from "react-router-dom";
 import "./App.css";
 import ApplyToJoin from "./Components/ApplyToJoin";
@@ -13,34 +14,34 @@ import ServicesSection from "./Components/OurServices/OurServicesSection";
 import Testimonials from "./Components/Testimonials ";
 import TradingCommunitySection from "./Components/TradingCommunity";
 import TradingLearningProviders from "./Components/TradingLearningProvider/TradingLearningProviders";
-import BenefitsSection from "./Components/BenefitsOfCourse";
+import CourseBenefits from "./Components/BenefitsOfCourse";
 
 function App() {
   return (
     <BrowserRouter>
       <Header />
-      <div
-        style={{
-          position: "relative", // Ensure positioning context for child elements
-          backgroundImage:
-            "url(https://traderoom.1onestrong.com/wp-content/uploads/2024/08/Heros-04.png)",
-          backgroundColor: "#0e3b43",
-          backgroundSize: "contain",
-          backgroundRepeat: "no-repeat",
-          backgroundBlendMode: "overlay",
-          height: "100vh",
-          color: "white",
-        }}
-        className="nav-hero-ctn"
-      >
-        <Navbar />
-        <HeroSection />
+      <div className="nav-hero-ctn relative">
+        <div className="rounded-ctn">
+          <div className="img-ctn absolute bottom-0 right-0">
+            <img
+              src="https://traderoom.1onestrong.com/wp-content/uploads/2024/08/Heros-04.png"
+              alt=""
+              className="absolute w-9/12 max-md:w-10/12 bottom-0 md:right-0 hero-img"
+            />
+            <img
+              src="https://traderoom.1onestrong.com/wp-content/uploads/2024/08/Icon-001.png"
+              alt=""
+            />
+          </div>
+          <Navbar />
+          <HeroSection />
+        </div>
       </div>
       <PartnersSection />
       <ServicesSection />
       <TradingCommunitySection />
       <TradingLearningProviders />
-      <BenefitsSection />
+      <CourseBenefits />
       <ProductSection />
       <Testimonials />
       <LatestArticles />

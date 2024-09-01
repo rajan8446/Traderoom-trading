@@ -45,7 +45,7 @@ const ApplyToJoin = () => {
           </div>
         </div>
 
-        <div className="mt-8 flex justify-start">
+        <div className="mt-8 flex max-md:justify-center">
           <a
             href="#"
             className="px-8 py-2 rounded-lg text-black bg-[#54f0b7] transition-all duration-300 transform hover:scale-90 hover:bg-[linear-gradient(247deg,#00ff80_0%,#C5FF7C_100%)] flex items-center justify-center"

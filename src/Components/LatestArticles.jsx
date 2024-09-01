@@ -15,7 +15,6 @@ const articles = [
     image:
       "https://traderoom.1onestrong.com/wp-content/uploads/2024/08/Blog-08.jpg",
   },
-  // Add more articles as needed
 ];
 
 const LatestArticles = () => {

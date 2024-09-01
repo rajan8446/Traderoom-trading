@@ -3,15 +3,18 @@
 const ProductCard = ({ image, name, description, price }) => (
   <div className="bg-white shadow-lg rounded-lg overflow-hidden transition-transform duration-300 hover:bg-[#10505C] hover:scale-105">
     <img src={image} alt={name} className="object-cover" />
-    
+
     <div className="p-4 bg-[#0E3B43] border-b border-gray-700">
       <h3 className="text-xl font-semibold text-white">{name}</h3>
       <p className="text-gray-300 mt-2">{description}</p>
     </div>
-    
+
     <div className="bg-[#0E3B43] p-4 flex justify-between items-center">
       <span className="text-lg text-[#2FFFB9] font-bold">${price}</span>
-      <button className="px-4 py-2 rounded-lg text-white font-bold transition-all duration-300 transform hover:scale-90 hover:bg-gradient-to-r hover:from-[#2FFFB9] hover:to-[#C5FF7C] bg-gradient-to-r from-[#2FFFB9] to-[#C5FF7C]">
+      <button
+        className="px-4 py-2 sm:px-3 sm:py-1.5 text-sm sm:text-xs text-base leading-tight rounded-lg text-white transition-all duration-300 transform sm:hover:scale-90 hover:scale-95 sm:hover:bg-gradient-to-r hover:from-[#2FFFB9] hover:to-[#C5FF7C] bg-gradient-to-r from-[#2FFFB9] to-[#C5FF7C] 
+  xs:px-2 xs:py-1 xs:text-xs xs:leading-tight xs:font-semibold"
+      >
         Get Course Now
       </button>
     </div>
@@ -54,7 +57,7 @@ const OurProductSection = () => {
 
   return (
     <section className="py-12 bg-[#0e3b43] text-white rounded-[40px] min-h-screen m-7 my-10">
-      <div className="w-2/3 sm:w-1/3 md:w-1/4 lg:w-1/5 flex justify-center items-center bg-[#10505c] rounded-[8px] mb-6 mx-auto p-2">
+      <div className="flex justify-center items-center bg-[#10505c] rounded-[8px] mb-6 mx-auto px-2 w-fit">
         <h2 className="text-[12px] sm:text-[14px] text-[#2FFFB9] text-center leading-[1.8] tracking-[2px]">
           OUR PRODUCTS
         </h2>
@@ -68,7 +71,7 @@ const OurProductSection = () => {
         Our best trading <span className="text-green-400">courses</span>
       </h2>
       <div className="p-6">
-        <div className="m-20 grid grid-cols-1 sm:grid-cols-2 m-10 gap-6">
+        <div className="m-15 grid grid-cols-1 sm:grid-cols-2 gap-6">
           {products.map((product, index) => (
             <ProductCard
               key={index}
