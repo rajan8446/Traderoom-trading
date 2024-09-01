@@ -42,8 +42,8 @@ const Footer = () => {
         {/* Links Section */}
         <div className="grid grid-cols-2 sm:grid-cols-5 gap-8 text-left text-gray-300 mb-8">
           <div>
-            <h3 className="text-lg font-semibold mb-2">Home</h3>
-            <ul className="space-y-1">
+            <h3 className="text-lg text-white font-bold mb-2">Home</h3>
+            <ul className="space-y-1 text-[#FFFFFF80]">
               <li>Home</li>
               <li>Membership</li>
               <li>About</li>
@@ -51,8 +51,8 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h3 className="text-lg font-semibold mb-2">Services</h3>
-            <ul className="space-y-1">
+            <h3 className="text-lg text-white font-bold mb-2">Services</h3>
+            <ul className="space-y-1 text-[#FFFFFF80]">
               <li>Trading Courses</li>
               <li>The Swing Report</li>
               <li>Indicators</li>
@@ -60,8 +60,8 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h3 className="text-lg font-semibold mb-2">Products</h3>
-            <ul className="space-y-1">
+            <h3 className="text-lg text-white font-bold mb-2">Products</h3>
+            <ul className="space-y-1 text-[#FFFFFF80]">
               <li>Articles</li>
               <li>Educational Videos</li>
               <li>E-Books & Guides</li>
@@ -69,8 +69,8 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h3 className="text-lg font-semibold mb-2">Resources</h3>
-            <ul className="space-y-1">
+            <h3 className="text-lg text-white font-bold mb-2">Resources</h3>
+            <ul className="space-y-1 text-[#FFFFFF80]">
               <li>traderoom Blog</li>
               <li>Success Stories</li>
               <li>Terms of Service</li>
@@ -78,8 +78,8 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h3 className="text-lg font-semibold mb-2">Contact</h3>
-            <ul className="space-y-1">
+            <h3 className="text-lg text-white font-bold mb-2">Contact</h3>
+            <ul className="space-y-1 text-[#FFFFFF80]">
               <li>Facebook</li>
               <li>Twitter</li>
               <li>Youtube</li>

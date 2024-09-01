@@ -1,4 +1,9 @@
-.hero-section-ctn::before{
-    --background-overlay: '';
-    background-color: #2fffb9;
+.hero-section-ctn::before {
+  --background-overlay: "";
+  background-color: #2fffb9;
+}
+
+.space-y-1 li:hover {
+  color: antiquewhite;
+  cursor: pointer;
 }
