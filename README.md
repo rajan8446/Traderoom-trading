@@ -43,7 +43,7 @@ This is a homepage template for an online trading courses website. It’s ideal 
 
 ## List of Implemented Features
 
-1. Fully responsive navigation bar with a dropdown menu.
+1. Fully responsive navigation bar with a dropdown menu and also added Hamburger Icon for small screens. 
 2. Price display with a responsive “Get Course Now” button, adapting to various screen sizes including small screens.
 3. Responsive testimonials slider with dynamic content, including star ratings and user profiles.
 4. Interactive FAQ accordion with expandable answers, fully responsive across all devices.
