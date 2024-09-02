@@ -28,7 +28,7 @@ const Navbar = () => {
         {/* Hamburger Icon for small screens */}
         <div className="md:hidden">
           <button onClick={toggleSidebar}>
-            <FontAwesomeIcon icon={faBars} className="text-white text-xl" />
+            <FontAwesomeIcon icon={faBars} className="text-white text-xl mr-4" />
           </button>
         </div>
 
