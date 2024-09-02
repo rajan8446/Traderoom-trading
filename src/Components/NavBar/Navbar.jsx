@@ -21,7 +21,7 @@ const Navbar = () => {
           <img
             src="https://traderoom.1onestrong.com/wp-content/uploads/2024/08/Logo-01-1.png"
             alt="Trade Room Logo"
-            className="h-10 w-auto sm:h-12"
+            className="h-10 w-auto sm:h-12 ml-2"
           />
         </div>
 
